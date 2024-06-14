@@ -1,6 +1,6 @@
 {
   "name": "@miyako-discord/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint Configuration for Miyako Discord Bot and related projects",
   "main": "index.js",
   "type": "module",

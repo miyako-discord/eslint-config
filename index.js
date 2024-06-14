@@ -22,7 +22,9 @@ export default [
             '@stylistic/no-mixed-spaces-and-tabs': 'error',
 
             // Use single quotes as much as possible.
-            '@stylistic/quotes': ['error', 'single'],
+            '@stylistic/quotes': ['error', 'single', {
+            	avoidEscape: true
+            }],
 
             // Require semicolons where needed.
             '@stylistic/semi': 'error',

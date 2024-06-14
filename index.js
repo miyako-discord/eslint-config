@@ -17,13 +17,15 @@ export default [
         },
         rules: {
             // Use 4 space indentations and disallow tabs.
-            '@stylistic/indent': ['error', 4],
+            '@stylistic/indent': ['error', 4, {
+                SwitchCase: 1
+            }],
             '@stylistic/no-tabs': 'error',
             '@stylistic/no-mixed-spaces-and-tabs': 'error',
 
             // Use single quotes as much as possible.
             '@stylistic/quotes': ['error', 'single', {
-            	avoidEscape: true
+                avoidEscape: true
             }],
 
             // Require semicolons where needed.
